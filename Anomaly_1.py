@@ -173,3 +173,4 @@ df5['Bin']=df5['Bin'].astype(int)
 df5['Bin']=((df4['Freq'].astype(float))*float(One_bin)).astype(int)
 g2=df5.groupby(["Date","Time","Bin"]).mean()
 g2.head(1000).plot()
+#TODO  now work on binned data
