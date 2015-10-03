@@ -12,8 +12,9 @@ import time
 import sys
 import nltk.classify.util
 from nltk.classify import NaiveBayesClassifier
+#TODO .... checkout use of Git   and more
 
-
+#TODO here is a second change
 
 #Setting up Twitter API
 
